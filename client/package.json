@@ -1,0 +1,42 @@
+{
+  "name": "evernetix",
+  "version": "1.0.0",
+  "description": "client sife eventrix assigment",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --port 3000",
+    "build": "set NODE_ENV=production && webpack"
+  },
+  "author": "Nati Nadav",
+  "license": "ISC",
+  "devDependencies": {
+    "@react-three/drei": "^9.78.1",
+    "@react-three/fiber": "^8.13.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/js-cookie": "^3.0.3",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/three": "^0.153.0",
+    "@types/webpack": "^5.28.1",
+    "axios": "^1.4.0",
+    "chrome-types": "^0.1.213",
+    "css-loader": "^6.8.1",
+    "dotenv-webpack": "^8.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "js-cookie": "^3.0.5",
+    "mini-css-extract-plugin": "^2.7.6",
+    "raw-loader": "^4.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-redux": "^8.1.1",
+    "three": "^0.154.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

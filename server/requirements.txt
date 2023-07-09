@@ -1,0 +1,6 @@
+sanic
+sanic_ext
+jsonschema 
+httpx
+python-decouple
+##py -m pip install -r requirements.txt 
